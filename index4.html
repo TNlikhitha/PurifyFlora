@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurifyFlora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS styles */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .navbar-brand {
+            color: #0D9276;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        #tagline {
+            padding: 100px 0;
+            background-image: url('images/header-background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        #features {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .feature-box {
+            margin-bottom: 30px;
+        }
+
+        .feature-box i {
+            font-size: 48px;
+            color: #0D9276;
+        }
+
+        #testimonials {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+
+        .testimonial-carousel .card {
+            border: none;
+            padding: 20px;
+        }
+
+        .testimonial-carousel .card-title {
+            font-size: 20px;
+            color: #0D9276;
+        }
+
+        #pricing {
+            padding: 100px 0;
+            background-image: url('images/pricing-background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        .pricing-demo {
+            margin-bottom: 50px;
+        }
+
+        .pricing-demo h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .card-header {
+            background-color: #0D9276;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .card-body {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        #cta {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+
+        #cta h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #footer {
+            background-color: #0D9276;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">PurifyFlora</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tagline -->
+    <section id="tagline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <h1 class="display-4">Bringing Nature's Healing Touch to Your Home and Air.</h1>
+                    <button type="button" class="btn btn-dark btn-lg"><i class="fa-brands fa-pagelines"></i>Shop Now</button>
+                </div>
+                <div class="col-lg-6">
+    <img src="images/plant3.png" class="img-fluid" alt="plant" >
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <div class="container">
+            <h2 class="display-4 mb-4 text-center">Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-leaf mb-4"></i>
+                        <h3 class="mb-3">High-Quality Plants</h3>
+                        <p class="text-muted">We offer a wide selection of high-quality plants that are carefully curated to enhance your living space and promote well-being.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-truck mb-4"></i>
+                        <h3 class="mb-3">Fast Delivery</h3>
+                        <p class="text-muted">Enjoy fast and reliable delivery straight to your doorstep, so you can start enjoying your new plants as soon as possible.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <i class="fas fa-hand-holding-heart mb-4"></i>
+                        <h3 class="mb-3">Exceptional Service</h3>
+                        <p class="text-muted">Our friendly and knowledgeable team is here to assist you every step of the way, from selecting the perfect plants to providing care tips and advice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 mb-4 text-center">Customer Testimonials</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title">"I love my new plants from PurifyFlora! They've added so much life and freshness to my home. Highly recommend!"</h3>
+                                        <img src="images/airpurifier.jpeg" class="rounded-circle img-fluid mb-3" width="100" alt="Customer Photo">
+                                        <p class="card-text">- Drithi, Bengaluru</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items here with additional testimonials and images -->
+                            <div class="carousel-item">
+                              <div class="card text-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">"The plants I ordered arrived promptly and were in excellent condition. Thank you, PurifyFlora!"</h3>
+                                  <img src="images/testimonial2.jpeg" class="rounded-circle img-fluid mb-3" width="100" alt="Customer Photo">
+                                  <p class="card-text">- Raj, Mumbai</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card text-center">
+                                <div class="card-body">
+                                  <h3 class="card-title">"Great service and beautiful plants. My office looks amazing now!"</h3>
+                                  <img src="images/testimonial3.jpeg" class="rounded-circle img-fluid mb-3" width="100" alt="Customer Photo">
+                                  <p class="card-text">- Priya, Delhi</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="pricingdemo">
+          <h2>"Transform your space, one leaf at a time. Discover the beauty of nature with our vibrant selection of plants. Bring life, color, and serenity into your home today."</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4">
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>Tulasi</h3>
+                      </div>
+                      <div class="card-body">
+                          <img class="plant-image" src="images\Tulasi.jpg" alt="Tulasi Image">
+                          <h2>100rs/1</h2>
+                          <p>Heals Infections</p>
+                          <p>Purifies the Blood</p>
+                          <p>Cures Insect Bites</p>
+                          <button type="button" class="btn btn-success">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>Aloe Vera</h3>
+                      </div>
+                      <div class="card-body">
+                          <img class="plant-image" src="images\Alovera.jpg" alt="Aloe Vera Image">
+                          <h2>49rs/1</h2>
+                          <p>Skin care</p>
+                          <p>Wound healing</p>
+                          <p>Antibacterial</p>
+                          <button type="button" class="btn btn-success">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card">
+                      <div class="card-header">
+                          <h3>Lavender</h3>
+                      </div>
+                      <div class="card-body">
+                          <img class="plant-image" src="images\lavender.jpeg" alt="Lavender Image">
+                          <h2>99rs/1</h2>
+                          <p>Aromatherapy</p>
+                          <p>Skin care</p>
+                          <p>Traditional medicine</p>
+                          <button type="button" class="btn btn-success">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+    <!-- Call to Action -->
+    <section id="cta">
+        <div class="container">
+            <h3>Plants are nature's silent healers, bringing tranquility and vitality to our lives."</h3>
+            <button type="button" class="btn btn-success">Medicinal Plants</button>
+            <button type="button" class="btn btn-success">Air Purifying Plants</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; Copyright PurifyFlora</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

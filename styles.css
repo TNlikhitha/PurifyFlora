@@ -1,0 +1,114 @@
+
+
+h1
+{
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+  h2{
+    color:#1B4242;
+  }
+  .display-4 {
+    color: #1B4242;
+}
+.row{
+  color: #1B4242;
+}
+.container{
+  color: #1B4242;
+}
+.container-fluid{
+  padding: 1% 8%;
+}
+#tagline{
+  background-color: #0D9276; #CDFADB;
+
+}
+
+.feature-box {
+     border: 1px solid #ccc;
+     padding: 20px;
+     text-align: center;
+     margin-bottom: 20px;
+     transition: transform 0.3s ease;
+     height: 100%;
+   }
+   .feature-box:hover {
+     transform: scale(1.05);
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+   }
+
+   #testimonials{
+     background-color: #CDFADB;
+   }
+   .feature-box{
+     background-color: #CDFADB;
+   }
+   .navbar-brand{
+     font-size: 24px;
+     font-weight: bold;
+   }
+
+   .nav-item
+   {
+     font-size: 1rem;
+     font-weight: bold;
+   }
+
+   .img-fluid
+   {
+     transform: rotate(60deg);
+     width:300px;
+     height:400px;
+
+   }
+.col-md-4:hover{
+  color: #1B4242;
+}
+#leaf-icon {
+    color: initial; /* Initial color of the icon */
+}
+
+#leaf-icon:hover {
+    color: green; /* Color of the icon when hovered over */
+}
+
+#press{
+  background-color:#0D9276;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:16%;
+  margin: 20px 20px 20px 20px;
+}
+
+#pricing{
+  background-color:#CDFADB;
+  text-align: center;
+  padding:75px;
+}
+.pricingdemo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carddeck{
+  padding: 3%;
+}
+
+.card-header
+{
+  background-color:#0D9276;
+}
+
+.col-lg-8 {
+    background-color: #0D9276; /* Change this color to your desired color */
+
+}
+.plant-image {
+    width: 100%; /* Set width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+}
